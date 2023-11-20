@@ -24,6 +24,11 @@ class SkeletonServiceProvider extends ServiceProvider
                 __DIR__.'/../config/config.php' => config_path(':package_slug.php'),
             ], ':package_slug-config');
 
+            // Publishing the migrations.
+            /*$this->publishes([
+                __DIR__.'/../database/migrations/' => database_path('migrations')
+            ], ':package_slug-migrations');*/
+
             // Publishing the views.
             /*$this->publishes([
                 __DIR__.'/../resources/views' => resource_path('views/vendor/:package_slug'),
