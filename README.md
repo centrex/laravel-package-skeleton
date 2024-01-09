@@ -16,7 +16,17 @@ This repo can be used to scaffold a Laravel package. Follow these steps to get s
 <!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Installation
+## Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Changelog](#changelog)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
+## <a name="installation"></a>Installation
 
 You can install the package via composer:
 
@@ -50,14 +60,14 @@ Optionally, you can publish the views using
 php artisan vendor:publish --tag=":package_slug-views"
 ```
 
-## Usage
+## <a name="usage"></a>Usage
 
 ```php
 $variable = new VendorName\Skeleton();
 echo $variable->echoPhrase('Hello, VendorName!');
 ```
 
-## Testing
+## <a name="testing"></a>Testing
 
 🧹 Keep a modern codebase with **Pint**:
 ```bash
@@ -84,23 +94,19 @@ composer test:unit
 composer test
 ```
 
-## Changelog
+## <a name="changelog"></a>Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
+## <a name="contributing"></a>Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
+## <a name="credits"></a>Credits
 
 - [:author_name](https://github.com/:author_username)
 - [All Contributors](../../contributors)
 
-## License
+## <a name="license"></a>License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
