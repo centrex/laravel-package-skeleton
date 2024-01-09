@@ -18,15 +18,17 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 
 ## Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Changelog](#changelog)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+- [:package\_description](#package_description)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+  - [Changelog](#changelog)
+  - [Contributing](#contributing)
+  - [Credits](#credits)
+  - [License](#license)
 
-## <a name="installation"></a>Installation
+## Installation
 
 You can install the package via composer:
 
@@ -60,14 +62,14 @@ Optionally, you can publish the views using
 php artisan vendor:publish --tag=":package_slug-views"
 ```
 
-## <a name="usage"></a>Usage
+## Usage
 
 ```php
 $variable = new VendorName\Skeleton();
 echo $variable->echoPhrase('Hello, VendorName!');
 ```
 
-## <a name="testing"></a>Testing
+## Testing
 
 🧹 Keep a modern codebase with **Pint**:
 ```bash
@@ -94,19 +96,19 @@ composer test:unit
 composer test
 ```
 
-## <a name="changelog"></a>Changelog
+## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## <a name="contributing"></a>Contributing
+## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## <a name="credits"></a>Credits
+## Credits
 
 - [:author_name](https://github.com/:author_username)
 - [All Contributors](../../contributors)
 
-## <a name="license"></a>License
+## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
