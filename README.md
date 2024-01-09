@@ -18,8 +18,6 @@ This is where your description should go. Limit it to a paragraph or two. Consid
 
 ## Contents
 
-- [:package\_description](#package_description)
-  - [Contents](#contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
